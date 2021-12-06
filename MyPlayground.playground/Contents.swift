@@ -15,3 +15,10 @@ func filterPositives(numbers:[Int]) -> [Int] {
     return output
 }
 print(filterPositives(numbers: [4, 8, 0, -4, 7]))
+
+let array1 = [1, 2, 5, 0, 20]
+print("array1 count", array1.count)
+var array2 = array1
+array2.append(3)
+print("array1 count", array1.count)
+print("array2 count", array2.count)
